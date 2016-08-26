@@ -1,0 +1,71 @@
+/* Inserta tu CSS aqui */
+
+.contenedor{
+	width: 1080px;
+	border:1px solid white;
+	padding: 5px;
+}
+
+.caja{
+	width: 200px;
+	height: 320px;
+	border: 2px solid #ECE7E7;
+	background: #ECE7E7;
+	text-align: center;
+	float: left;
+	margin: 5px;
+	padding-top: 15px;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(204,198,204,1);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(204,198,204,1);
+	box-shadow: 5px 5px 5px 0px rgba(204,198,204,1);
+}
+
+h4, p{
+	font-family: 'Indie Flower', cursive;
+}
+
+h5{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.icon-compass{
+	font-size: 70px;
+}
+
+.icon-spades{
+	font-size: 70px;
+}
+
+.icon-heart{
+	font-size: 70px;
+}
+
+.icon-cake{
+	font-size: 70px;
+}
+
+.icon-coffee{
+	font-size: 70px;
+}
+
+.caja:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	background: white;
+	color:#ABBDC8;
+
+}
+
+.contenedor:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.caja:hover span{
+	font-size: 80px;
+}
+
+.caja:hover h4{
+	font-size: 22px;
+}
